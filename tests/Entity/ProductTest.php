@@ -18,6 +18,6 @@ class ProductTest extends TestCase
     public function testName()
     {
         $this->product->setName('someName');
-        $this->assertSame('someName', $this->product->getName());
+        $this->assertSame('invalidName', $this->product->getName());
     }
 }
